@@ -26,19 +26,19 @@
 
 <body>
 	<div class="row">
-		<div class="col-lg-12">
+		<%--<div class="col-lg-12">
 			<ul class="breadcrumb wk-breadcrumb">  
 				<li><a href="#">大学生学习平台</a></li>
 				<li><a href="#">学生信息管理</a></li>
 				<li><a href="#">编辑学生信息</a></li>
 			</ul>
-		</div>
+		</div>--%>
 	</div>
 
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="panel panel-default wk-panel ">
-				<div class="panel-heading">编辑学生信息 Update Data</div>
+				<div class="panel-heading">编辑学生信息 </div>
 				<form action="<%=basePath%>editStudent/${student.id}.html" method="POST">
 					<div class="panel-body">
 						<div class="row">

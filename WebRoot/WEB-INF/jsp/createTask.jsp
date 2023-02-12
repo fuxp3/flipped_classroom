@@ -24,20 +24,20 @@
 
 <body>
 <div class="row">
-    <div class="col-lg-12">
+    <!-- <div class="col-lg-12">
         <ul class="breadcrumb wk-breadcrumb">
             <li><a href="#">大学生学习平台</a></li>
             <li><a href="#">作业管理</a></li>
             <li><a href="#">新增作业</a></li>
         </ul>
-    </div>
+    </div> -->
 </div>
     
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default wk-panel ">
                 <div class="panel-heading">
-                    新增作业 Create Data
+                    新增作业 
                 </div>
                 <form action="<%=basePath%>/saveTask.html" method="POST">
                 <div class="panel-body">

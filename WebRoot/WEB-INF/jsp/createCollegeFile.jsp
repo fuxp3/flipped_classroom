@@ -24,20 +24,20 @@
 
 <body>
 <div class="row">
-    <div class="col-lg-12">
+    <!-- <div class="col-lg-12">
         <ul class="breadcrumb wk-breadcrumb">
             <li><a href="#">大学生学习平台</a></li>
             <li><a href="#">课程文件管理</a></li>
             <li><a href="#">上传课程文档</a></li>
         </ul>
-    </div>
+    </div> -->
 </div>
     
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default wk-panel ">
                 <div class="panel-heading">
-                    上传文档 Create Data
+                    上传文档 
                 </div>
                 <form action="<%=basePath%>/saveCollegeFile.html" method="POST" enctype="multipart/form-data">
                 <div class="panel-body">

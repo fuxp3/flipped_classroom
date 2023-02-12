@@ -9,13 +9,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <base href="<%=basePath%>">
-<title>登录 在线学习平台</title>
+<title>翻转课堂管理</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description"	content="ForFuture Group、ForFuturn News,ForFuture Share,ForFuture Shopping" />
-<meta name="keywords" content="在线学习平台，知识共享!共祝教育事业！  " />
-<meta name="author" content="" />
-<link rel="shortcut icon"	href="https://8.url.cn/edu/edu_modules/edu-ui/img/nohash/favicon.ico">
+
 
 <base href="<%=basePath%>">
 <link rel="stylesheet" type="text/css"	href="resource/vendor/bootstrap/css/bootstrap.min.css">
@@ -32,7 +28,7 @@
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
 				<!-- 登录form -->
 				<form class="login100-form validate-form"	action="<%=basePath%>userLogon.html" method="POST"  style="height:480px;">
-					<span class="login100-form-title p-b-49 loginTitle">在线学习平台</span>
+					<span class="login100-form-title p-b-49 loginTitle">翻转课堂管理</span>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate="请输入用户名" >
 						<span class="label-input100">用户名</span> 
@@ -73,9 +69,9 @@
 							<button class="login100-form-btn">登 录</button>
 						</div>
 					</div>
-					<div class="copyright">
+					<!-- <div class="copyright">
 						<a href="#" target="_blank"> ©2021	ForFuture || Designed by 毕业设计 </a>
-					</div>
+					</div> -->
 				</form>
 			</div>
 		</div>

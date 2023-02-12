@@ -24,20 +24,20 @@
 
 <body>
 <div class="row">
-    <div class="col-lg-12">
+    <!-- <div class="col-lg-12">
         <ul class="breadcrumb wk-breadcrumb">
             <li><a href="#">大学生学习平台</a></li>
             <li><a href="#">教师信息管理</a></li>
             <li><a href="#">批量导入信息</a></li>
         </ul>
-    </div>
+    </div> -->
 </div>
     
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default wk-panel ">
                 <div class="panel-heading">
-                    上传数据 Create Data
+                    上传数据 
                 </div>
                 <form action="<%=basePath%>/teacherDataImport.html" method="POST" enctype="multipart/form-data">
                 <div class="panel-body">

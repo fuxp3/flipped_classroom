@@ -11,7 +11,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>大学生学习平台</title> 
+	<title>翻转课堂管理</title> 
 	<base href="<%=basePath%>">
 	<link rel="stylesheet" href="resource/bootstrap/css/bootstrap.min.css" >    
 	<link rel="stylesheet" href="resource/bootstrap/css/bootstrap-theme.min.css">
@@ -25,20 +25,25 @@
 <body>
     <div class="row">
         <div class="col-lg-12">
-            <div class="banner" id="banner"></div>
+            <div class="banner" id="banner">
+            	<span style="font-size:25px;line-height:45px;color:white;">翻转课堂管理</span>
+            	<div style="float:right;line-height:45px;padding-right:5px;">
+            		<a href="<%=basePath%>logout.html" class="wk-main-menu-item">注销登录</a>
+            	</div>
+            </div>
         </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
             <ul class="nav nav-tabs wk-nav-menu" id="wk-nav-menu">
-                <li role="presentation"><a id="leftNav">[教师模块]</a></li>
+                <%-- <li role="presentation"><a id="leftNav">[教师模块]</a></li>
                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-createCollegeVideo" class="wk-main-menu-item">上传课程视频</a></li>
                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-createCollegeFile" class="wk-main-menu-item">上传课程文件</a></li>
                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchCollegeVideo" class="wk-main-menu-item">课程视频查询</a></li>
                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchCollegeFile" class="wk-main-menu-item">课程文件查询</a></li>
                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchTask" class="wk-main-menu-item">作业信息查询</a></li>
-                <li role="presentation"><a href="<%=basePath%>logout.html" class="wk-main-menu-item">注销登录</a></li>    
+                <li role="presentation"><a href="<%=basePath%>logout.html" class="wk-main-menu-item">注销登录</a></li> --%>   
             </ul>
         </div>
     </div>

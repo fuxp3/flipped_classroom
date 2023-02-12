@@ -10,8 +10,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>大学生学习平台</title> 
+	<title>翻转课堂管理</title> 
 	<base href="<%=basePath%>">
 	<link rel="stylesheet" href="resource/bootstrap/css/bootstrap.min.css" >    
 	<link rel="stylesheet" href="resource/bootstrap/css/bootstrap-theme.min.css">
@@ -25,24 +24,29 @@
 <body>
     <div class="row">
         <div class="col-lg-12">
-            <div class="banner" id="banner"></div>
+            <div class="banner" id="banner">
+            	<span style="font-size:25px;line-height:45px;color:white;">翻转课堂管理</span>
+            	<div style="float:right;line-height:45px;padding-right:5px;">
+            		<a href="<%=basePath%>logout.html" class="wk-main-menu-item">注销登录</a>
+            	</div>
+            </div>
         </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
-            <ul class="nav nav-tabs wk-nav-menu" id="wk-nav-menu">
-                <li role="presentation"><a id="leftNav">[管理员模块]</a></li>
-                <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-createStudent" class="wk-main-menu-item">新增学生</a></li>
-                <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchStudent" class="wk-main-menu-item">学生信息查询</a></li>
-                <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-createTeacher" class="wk-main-menu-item">新增教师</a></li>
-                <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchTeacher" class="wk-main-menu-item">教师信息查询</a></li>
-                <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-createCollege" class="wk-main-menu-item">新增学院</a></li>
-                <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchCollege" class="wk-main-menu-item">学院信息管理</a></li>
-                <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-createCourse" class="wk-main-menu-item">新增课程</a></li>
-                <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchCourse" class="wk-main-menu-item">课程信息查询</a></li>
-                <li role="presentation"><a href="<%=basePath%>logout.html" class="wk-main-menu-item">注销登录</a></li>    
-            </ul>
+             <ul class="nav nav-tabs wk-nav-menu" id="wk-nav-menu">
+                 <!-- <li role="presentation"><a id="leftNav">[管理员模块]</a></li>
+                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-createStudent" class="wk-main-menu-item">新增学生</a></li>
+                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchStudent" class="wk-main-menu-item">学生信息查询</a></li>
+                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-createTeacher" class="wk-main-menu-item">新增教师</a></li>
+                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchTeacher" class="wk-main-menu-item">教师信息查询</a></li>
+                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-createCollege" class="wk-main-menu-item">新增学院</a></li>
+                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchCollege" class="wk-main-menu-item">学院信息管理</a></li>
+                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-createCourse" class="wk-main-menu-item">新增课程</a></li>
+                 <li role="presentation"><a href="javascript:void();" id="wk-menu-panel-item-searchCourse" class="wk-main-menu-item">课程信息查询</a></li> 
+                 <li role="presentation"><a href="<%=basePath%>logout.html" class="wk-main-menu-item">注销登录</a></li> -->
+             </ul>
         </div>
     </div>
     
@@ -60,7 +64,7 @@
                             <div id="AMenu" class="panel-collapse collapse">    
                                 <div class="list-group wk-accordion-list-group">
                                     <button type="button" class="list-group-item" id="wk-menu-panel-item-createStudent"> >&nbsp;&nbsp;新增学生</button>
-                                     <button type="button" class="list-group-item" id="wk-menu-panel-item-createManyStudent"> >&nbsp;&nbsp;批量新增学生</button>
+                                     <!-- <button type="button" class="list-group-item" id="wk-menu-panel-item-createManyStudent"> >&nbsp;&nbsp;批量新增学生</button> -->
                                     <button type="button" class="list-group-item" id="wk-menu-panel-item-searchStudent"> >&nbsp;&nbsp;学生信息查询</button>
                                 </div>
                             </div>
@@ -74,7 +78,7 @@
                              <div id="BMenu" class="panel-collapse collapse">    
                                 <div class="list-group wk-accordion-list-group">
                                     <button type="button" class="list-group-item" id="wk-menu-panel-item-createTeacher"> >&nbsp;&nbsp;新增教师</button>
-                                    <button type="button" class="list-group-item" id="wk-menu-panel-item-createManyTeacher"> >&nbsp;&nbsp;批量新增教师</button>
+                                    <!-- <button type="button" class="list-group-item" id="wk-menu-panel-item-createManyTeacher"> >&nbsp;&nbsp;批量新增教师</button> -->
                                     <button type="button" class="list-group-item" id="wk-menu-panel-item-searchTeacher"> >&nbsp;&nbsp;教师信息查询</button>
                                 </div>
                             </div>

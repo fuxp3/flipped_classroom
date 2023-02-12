@@ -27,13 +27,13 @@
 
 <body>
 	<div class="row">
-		<div class="col-lg-12">
+		<%--<div class="col-lg-12">
 			<ul class="breadcrumb wk-breadcrumb">
 				<li><a href="#">大学生学习平台</a></li>
 	            <li><a href="#">课程信息管理</a></li>
 	            <li><a href="#">我的课程</a></li>
 			</ul>
-		</div>
+		</div>--%>
 	</div>
 	
 	<div class="row">

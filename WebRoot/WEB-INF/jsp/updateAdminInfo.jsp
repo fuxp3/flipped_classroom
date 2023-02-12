@@ -29,7 +29,7 @@
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="panel panel-default wk-panel ">
-				<div class="panel-heading">编辑管理员信息 Update Data</div>
+				<div class="panel-heading">编辑管理员信息 </div>
 				<form action="<%=basePath%>editAdminInfo/${admin.id}.html" method="POST">
 					<div class="panel-body">
 						<div class="row">
