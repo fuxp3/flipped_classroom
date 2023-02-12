@@ -106,13 +106,26 @@
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="panel panel-info wk-accordion-header">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" href="#FMenu" data-parent="#accordion">公告管理</a>
+                            </div> 
+                            <div id="FMenu" class="panel-collapse collapse">    
+                                <div class="list-group wk-accordion-list-group">
+                                    <button type="button" class="list-group-item" id="wk-menu-panel-item-createNotice"> >&nbsp;&nbsp;新增公告</button>
+                                    <button type="button" class="list-group-item" id="wk-menu-panel-item-searchNotice"> >&nbsp;&nbsp;公告信息查询</button>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
         
          <div  id="rightTable" class="col-lg-10" style="padding:0px;">
-            <iframe id="mainFrame" src="<%=basePath%>/searchNotice.html" width="100%" frameborder="0" onload="changeFrameHeight()">
+            <iframe id="mainFrame" src="<%=basePath%>/searchNoticeInfo.html" width="100%" frameborder="0" onload="changeFrameHeight()">
             </iframe>
          </div>
     </div>
